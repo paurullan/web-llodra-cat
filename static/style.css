@@ -1,0 +1,52 @@
+#header {
+  background: #A2D3FC;
+  border-top: 0.3em solid #A2D3FC;
+  border-bottom: 0.3em; }
+  #header h1 {
+    padding: 0.2em; }
+
+table {
+  border-spacing: 0.1em;
+  border-collapse: collapse; }
+
+tr {
+  text-align: left; }
+  tr:hover {
+    background-color: #eeeeee; }
+
+#avatar img {
+  width: 100%; }
+
+#contact img {
+  width: 3em; }
+
+#thanks {
+  border-top: 0.3em; }
+
+@media screen and (min-width: 20em) {
+  #avatar img {
+    width: 320px; }
+
+  #contact img {
+    width: 4em; } }
+@media screen and (min-width: 40em) {
+  #avatar img {
+    width: 320px; }
+
+  #contact img {
+    width: 5em; }
+
+  #avatar {
+    float: right; }
+
+  #contact {
+    float: left; }
+    #contact img {
+      width: 5em; }
+
+  #thanks {
+    float: right;
+    position: relative;
+    clear: both;
+    padding: 0.5em;
+    text-align: right; } }
